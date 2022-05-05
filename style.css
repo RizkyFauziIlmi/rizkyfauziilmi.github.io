@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.jumbotron {
+    overflow: hidden;
+}
+
+#certificates-full {
+    padding: 0 20vw;
+}
+
+#projects .row span {
+    background-color: #212529;
+    border-radius: 0.2rem;
+}
+
+.card {
+    box-shadow: none;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px 2px black;
+}
+
+@media (max-width: 767.98px) {
+    .col-md-4 {
+        padding: 0 3rem;
+    }
+    #certificates-full {
+        padding: 0;
+    }
+}
